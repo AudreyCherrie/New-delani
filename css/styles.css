@@ -1,0 +1,134 @@
+.image1{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+body{
+    color: white;
+
+}
+.logo{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+}
+h2{
+    font-size: 10px;
+}
+.mouse click{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+}
+h3{
+    text-align: center;
+    color: black;
+
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 10px;
+}
+.image2{
+    position: relative;
+    padding: 20px;
+}
+.services{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 30%;
+}
+h5{
+    font-size: 10px;
+    text-align: center;
+}
+.whatwedo{
+    text-align: center;
+    color: black;
+}
+.port{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+.descripton{
+    position: absolute;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+    border: 2px solid white;
+    color: white;
+    font-size: 30px;
+    height: 50%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.show {
+    opacity: 1;
+    background-color: rgba (0, 0, 0, 0.4);
+    color:red;
+}
+.show p{
+    color:red;
+    font-size: 20px;
+    padding: 10px;
+    margin:20px;
+}
+
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7,.pic8{
+    margin: 3px;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s;
+    backface-visibility: hidden;
+    image-resolution: 30px;
+
+/* }
+
+.contact{
+    background-image:"images/backgrounds/c_image.jpg" height="100%" width="100%";
+    position: relative;
+    text-align: center;
+    padding: 20px; */
+}
+
+#COMMENT{
+    height: 400px;
+    width: 550px;
+}
+input[type=text]{
+    background-color:rgba(0, 0, 0, 0);
+}
+
+#p1, #p2, #p3 {
+    display: none;
+}
+
+#h{
+    background: url('../images/backgrounds/c_image.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
